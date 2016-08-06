@@ -2,7 +2,7 @@
 
 ### v0.1.0
 
-RovrFour RF1 is an Arduino based mini rover that can be controlled using an [Android app](https://github.com/ajaysreedhar/RovrFourController, "RovrFourController") over WiFi.
+RovrFour RF1 is an Arduino based mini rover that can be controlled using an [Android app](https://github.com/ajaysreedhar/RovrFourController "RovrFourController") over WiFi.
 
 The heart of the rover is the ATmega328P based [Arduino Uno board](https://www.arduino.cc/en/Main/ArduinoBoardUno). 
 The rover uses an [ESP8266](https://en.wikipedia.org/wiki/ESP8266) module for communication over WiFi and a L293D based motor shield for driving

@@ -1,6 +1,6 @@
 # RovrFour RF1 - Sketch
 
-v0.1.0
+### v0.1.0
 
 RovrFour RF1 is an Arduino based mini rover that can be controlled using an [Android app](https://github.com/ajaysreedhar/RovrFourController, "RovrFourController") over WiFi.
 

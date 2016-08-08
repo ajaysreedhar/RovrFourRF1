@@ -11,6 +11,8 @@
  * The circuit:
  *  - L293 based motor shield attached to digital pins 4, 5, 7, 8, 12.
  *  - ESP8266 WiFi module attached to pins 2 and 13.
+ *  
+ * Read more, https://hackaday.io/project/13059-rovrfour-rf1
  */
 #include <SoftwareSerial.h>
 #include <AFMotor.h>
@@ -86,7 +88,7 @@ void setup() {
 
   stopRover();
 
-  /* Begin communication with ESP8266 module at BAUD 57600. */
+  /* Begin communication with ESP8266 module at baud 57600. */
   wifi.begin(57600);
 
   /* Switch to access point mode. */

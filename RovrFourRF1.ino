@@ -110,7 +110,9 @@ void setup() {
   stopRover();
 
   /* Flush the buffer. */
-  while(wifi.available()) {}
+  while(wifi.available()) {
+    wifi.read();
+  }
 }
 
 void loop() {
